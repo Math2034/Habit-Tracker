@@ -2,7 +2,7 @@ Habit Tracker
 A kanban-based habit tracker with automatic streak tracking, built with vanilla JS and zero dependencies.
 
 🔗 Live Demo
-👉 https://your-live-demo-link.com
+👉 https://math2034.github.io/Habit-Tracker/
 
 
 🚀 Features
@@ -60,4 +60,5 @@ Add backend integration (Node.js + Database)
 Matheus Ramos
 Front-End Developer (Junior Level)
 Based in Australia
+
 GitHub: https://github.com/Math2034

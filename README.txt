@@ -44,8 +44,8 @@ habit-tracker/
 ├── style.css
 ├── script.js
 ├── assets/
-│   └── screenshot.png
-└── README.md
+│   └── screenshots/
+└── README.txt
 
 📈 Future Improvements
 
@@ -62,3 +62,4 @@ Front-End Developer (Junior Level)
 Based in Australia
 
 GitHub: https://github.com/Math2034
+

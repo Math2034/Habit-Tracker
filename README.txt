@@ -4,6 +4,8 @@ A kanban-based habit tracker with automatic streak tracking, built with vanilla 
 🔗 Live Demo
 👉 https://math2034.github.io/Habit-Tracker/
 
+Screenshots
+
 
 🚀 Features
 
@@ -62,4 +64,5 @@ Front-End Developer (Junior Level)
 Based in Australia
 
 GitHub: https://github.com/Math2034
+
 

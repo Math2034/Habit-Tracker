@@ -4,6 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>HabitFlow — Daily Habit Tracker</title>
+  <meta name="description" content="HabitFlow is a vanilla JavaScript habit tracker with streaks, a Kanban-style board and LocalStorage persistence.">
+  <link rel="canonical" href="https://math2034.github.io/Habit-Tracker/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HabitFlow — Daily Habit Tracker">
+  <meta property="og:description" content="Track daily habits, streaks and progress in a responsive browser app built with vanilla JavaScript.">
+  <meta property="og:url" content="https://math2034.github.io/Habit-Tracker/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/Math2034/Habit-Tracker/main/assets/screenshots_for_notes/habit-tracker.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HabitFlow — Daily Habit Tracker">
+  <meta name="twitter:description" content="Track daily habits, streaks and progress in a responsive browser app built with vanilla JavaScript.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Math2034/Habit-Tracker/main/assets/screenshots_for_notes/habit-tracker.png">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>">
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
@@ -72,10 +83,10 @@
   <!-- MODAL: CREATE / EDIT -->
   <div class="modal-overlay" id="modalOverlay">
     <div class="modal" id="modal">
-      <button class="modal-close" id="btnCloseModal">✕</button>
+      <button class="modal-close" id="btnCloseModal" type="button" aria-label="Close habit dialog">✕</button>
       <h2 class="modal-title" id="modalTitle">New Habit</h2>
 
-      <label class="field-label">Habit name</label>
+      <label class="field-label" for="inputName">Habit name</label>
       <input class="field-input" id="inputName" type="text" placeholder="e.g. Meditate 10 min" maxlength="50"/>
 
       <label class="field-label">Icon (emoji)</label>
@@ -96,4 +107,4 @@
 
   <script src="js/script.js"></script>
 </body>
-</html>>
+</html>

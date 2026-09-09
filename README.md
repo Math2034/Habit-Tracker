@@ -1,5 +1,7 @@
-Habit Tracker
+HabitFlow — Daily Habit Tracker
 A kanban-based habit tracker with automatic streak tracking, built with vanilla JS and zero dependencies.
+
+> Personal portfolio project by Matheus Ramos. This demonstrates practical browser development and problem-solving; it is not presented as professional client experience.
 
 🔗 Live Demo
 👉 https://math2034.github.io/Habit-Tracker/
@@ -60,8 +62,8 @@ Add backend integration (Node.js + Database)
 
 👤 Author
 Matheus Ramos
-Front-End Developer (Junior Level)
-Based in Australia
+IT student building practical front-end projects
+Based in Perth, Australia
 
 GitHub: https://github.com/Math2034
 
